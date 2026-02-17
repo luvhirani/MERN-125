@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox - Pricing Plans</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9fafb;
+      padding: 30px;
+    }
+
+    .pricing-wrapper {
+      width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .pricing-wrapper h1 {
+      margin-bottom: 8px;
+    }
+
+    .pricing-wrapper p {
+      font-size: 14px;
+      color: #6b7280;
+      margin-bottom: 20px;
+    }
+
+    .pricing-cards {
+      display: flex;              /* 3 cards in a row */
+      justify-content: space-between;
+    }
+
+    .plan {
+      width: 300px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 18px 16px;
+      border: 1px solid #e5e7eb;
+      text-align: left;
+    }
+
+    .plan.highlight {
+      border: 2px solid #2563eb;
+      background-color: #eff6ff;
+    }
+
+    .plan-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .plan-price {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .plan-price span {
+      font-size: 13px;
+      color: #6b7280;
+      font-weight: normal;
+    }
+
+    .plan-desc {
+      font-size: 13px;
+      color: #4b5563;
+      margin-bottom: 10px;
+    }
+
+    .plan ul {
+      padding-left: 18px;
+      font-size: 13px;
+      margin-bottom: 12px;
+      color: #374151;
+    }
+
+    .plan-btn {
+      padding: 7px 12px;
+      border-radius: 4px;
+      border: none;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    .highlight .plan-btn {
+      background-color: #2563eb;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <section class="pricing-wrapper">
+    <h1>Simple, clear pricing</h1>
+    <p>Choose a plan that fits your learning journey.</p>
+
+    <div class="pricing-cards">
+      <div class="plan">
+        <div class="plan-name">Basic</div>
+        <div class="plan-price">₹999 <span>/ month</span></div>
+        <div class="plan-desc">Good for students starting with basics.</div>
+        <ul>
+          <li>Access to recordings</li>
+          <li>Community support</li>
+          <li>Weekly Q&A</li>
+        </ul>
+        <button class="plan-btn">Choose Basic</button>
+      </div>
+
+      <div class="plan highlight">
+        <div class="plan-name">Pro</div>
+        <div class="plan-price">₹2,499 <span>/ month</span></div>
+        <div class="plan-desc">Best for serious learners with projects.</div>
+        <ul>
+          <li>Everything in Basic</li>
+          <li>Major projects with review</li>
+          <li>Mock interviews</li>
+          <li>Resume review</li>
+        </ul>
+        <button class="plan-btn">Choose Pro</button>
+      </div>
+
+      <div class="plan">
+        <div class="plan-name">Enterprise</div>
+        <div class="plan-price">Custom</div>
+        <div class="plan-desc">For colleges / teams with custom needs.</div>
+        <ul>
+          <li>Custom curriculum</li>
+          <li>Team training</li>
+          <li>Project-based evaluation</li>
+        </ul>
+        <button class="plan-btn">Contact Sales</button>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

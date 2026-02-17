@@ -1,0 +1,29 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+
+h3{
+    background-color: green;
+}
+
+h4{
+    color: green !important;
+    
+}
+
+h4,h5,h6{
+    background-color: beige;
+}
+
+.class1{
+    background-color: blue;
+}
+
+/* #heading6{
+    background-color: green;
+} */
+
+#border{
+    border: 2px solid transparent;
+}

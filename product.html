@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            border: 2px solid black;
+            display: block;
+        }
+        div{
+            border: 2px solid black;
+            display: inline-block;
+            height: 350px;
+            width: 300px;
+        }
+        #p1{
+            position: relative;
+            left: 90px;
+            z-index: 2;
+            background-color: aqua;
+        }
+        #p2{
+            position: absolute;
+            z-index: 1;
+            top: 50px;
+            background-color: burlywood;
+        }
+        #p3{
+            position: absolute;
+            left: 20px;
+            z-index: 3;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="p1">
+        <h2>Shirt</h2>
+        <img style="height: 200px;" src="https://www.mashup.in/cdn/shop/files/M-6564Blue_3.jpg?v=1685099642" alt="">
+        <p>499$</p>
+        <p>Lorem ipsum dolor sit amet ca assumenda.</p>
+    </div>
+    <div id="p2">
+        <h2>T-Shirt</h2>
+        <img style="height: 200px;" src="https://www.mashup.in/cdn/shop/files/M-6564Blue_3.jpg?v=1685099642" alt="">
+        <p>399$</p>
+        <p>Lorem ipsum dolor sit amet ca assumenda.</p>
+    </div>
+    <div id="p3">
+        <h2>Jeans</h2>
+        <img style="height: 200px;" src="https://www.mashup.in/cdn/shop/files/M-6564Blue_3.jpg?v=1685099642" alt="">
+        <p>999$</p>
+        <p>Lorem ipsum dolor sit amet ca assumenda.</p>
+    </div>
+   
+    <!-- <span>
+        <h2>Shirt</h2>
+        <img style="height: 200px;" src="https://www.mashup.in/cdn/shop/files/M-6564Blue_3.jpg?v=1685099642" alt="">
+        <p>499$</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis assumenda beatae. Velit, earum. Molestias aliquid corrupti debitis incidunt laborum dolorum sunt consequuntur nemo, totam asperiores, esse, impedit tempora assumenda.</p>
+    </span> -->
+
+    <!-- <div style="border: 2px solid black;" >
+        Div
+    </div>
+
+    <span style="border: 2px solid black;" >
+        Span
+    </span> -->
+
+    <!-- <a style="border: 2px solid black;" href="">Google</a>
+    <h1 style="border: 2px solid black;" >Heading</h1> -->
+</body>
+</html>
