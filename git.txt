@@ -1,1 +1,6 @@
 git init
+git add .
+git commit -m "first commit"
+git branch -M main
+MERN125 % git remote add origin https://github.com/luvhirani/MERN-125.git
+git push -u origin main
