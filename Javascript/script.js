@@ -550,3 +550,17 @@ obj1.marks.twelth = 60
 
 // random number , 6 digit, integer
 // console.log(Math.floor( random * 1000000 ))
+
+// let day = "Thursday"
+// day = true
+// console.log(day)
+
+function verify(result) {
+    if (result === "pass") {
+      console.log("Passed")
+    } else {
+      console.log("Failed")
+    }
+  }
+
+verify("pass")
